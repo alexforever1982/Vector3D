@@ -61,12 +61,12 @@ public:
         z *= m;
     }
 
-    FORCEINLINE const double &operator[](int index) const
+    FORCEINLINE const double &operator[](size_t index) const
     {
         return vec[index];
     }
 
-    FORCEINLINE double &operator[](int index)
+    FORCEINLINE double &operator[](size_t index)
     {
         return vec[index];
     }
