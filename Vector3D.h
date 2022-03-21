@@ -69,6 +69,11 @@ struct Vector3D
         return vec[index];
     }
 
+    FORCEINLINE friend Vector3D operator+(const Vector3D &a) noexcept
+    {
+        return a;
+    }
+
     FORCEINLINE friend Vector3D operator-(const Vector3D &a) noexcept
     {
         return Vector3D(-a.x, -a.y, -a.z);
