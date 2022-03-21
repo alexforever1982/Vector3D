@@ -117,8 +117,7 @@ struct Vector3D
         return Vector3D(
             a.y * b.z - a.z * b.y,
             a.z * b.x - a.x * b.z,
-            a.x * b.y - a.y * b.x
-        );
+            a.x * b.y - a.y * b.x);
     }
 
     FORCEINLINE friend double Triple(const Vector3D &a, const Vector3D &b, const Vector3D &c)
