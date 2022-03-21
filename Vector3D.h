@@ -103,7 +103,7 @@ struct Vector3D
 
     FORCEINLINE friend Vector3D operator/(const Vector3D &a, double k) noexcept
     {
-        const auto inv_k = 1.0f / k;
+        const auto m = 1.0f / k;
         return Vector3D(a.x * m, a.y * m, a.z * m);
     }
 
