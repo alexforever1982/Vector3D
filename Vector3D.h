@@ -26,6 +26,7 @@ public:
         };
     };
 
+public:
     Vector3D(double x = 0.0, double y = 0.0, double z = 0.0) noexcept
         : x(x), y(y), z(z)
     {
