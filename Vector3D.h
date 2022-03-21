@@ -53,7 +53,7 @@ struct Vector3D
 
     FORCEINLINE void operator/=(double k) noexcept
     {
-        const auto m = 1.0f / k;
+        const auto m = 1.0 / k;
         x *= m;
         y *= m;
         z *= m;
