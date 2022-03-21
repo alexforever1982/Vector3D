@@ -37,8 +37,8 @@ int main()
 
     std::cout << std::endl;
 
-    std::cout << "+A = "     << +A     << std::endl;
-    std::cout << "-A = "     << -A     << std::endl;
+    std::cout << "+A = " << +A << std::endl;
+    std::cout << "-A = " << -A << std::endl;
 
     std::cout << std::endl;
 
@@ -77,7 +77,7 @@ int main()
 
     std::cout << std::endl;
 
-    std::cout << "Length (A) = " << Length (A)  << std::endl;
+    std::cout << "Length (A) = " << Length (A) << std::endl;
     std::cout << "Length2(A) = " << Length2(A) << std::endl;
 
     std::cout << std::endl;
