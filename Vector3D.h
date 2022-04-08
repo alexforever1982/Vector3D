@@ -147,7 +147,8 @@ public:
 
     FORCEINLINE friend Vector3D Norm(const Vector3D &a) noexcept
     {
-        return a / Length(a);
+        const auto inv_length = 1 / (Length(a) + 1e-30);
+        return a * inv_length;
     }
 };
 
